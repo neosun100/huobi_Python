@@ -12,7 +12,7 @@ class RestApiRequestImpl(object):
     # __MARKET_URL = "https://api.huobi.pro:443"
     # __TRADING_URL = "https://api.huobi.pro:443"
 
-    def __init__(self, api_key, secret_key, server_url="https://api.huobi.pro"):
+    def __init__(self, api_key, secret_key, server_url="https://api.huobi.io"):
         self.__api_key = api_key
         self.__secret_key = secret_key
         self.__server_url = server_url
