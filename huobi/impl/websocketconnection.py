@@ -71,8 +71,8 @@ class WebsocketConnection:
     def __init__(self, api_key, secret_key, uri, watch_dog, request):
         # threading.Thread.__init__(self)
         self.__thread = None
-        self.__market_url = "wss://api.huobi.pro/ws"
-        self.__trading_url = "wss://api.huobi.pro/ws/" + request.api_version
+        self.__market_url = "wss://api.huobi.io/ws"
+        self.__trading_url = "wss://api.huobi.io/ws/" + request.api_version
         self.__api_key = api_key
         self.__secret_key = secret_key
         self.request = request
